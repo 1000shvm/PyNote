@@ -13,6 +13,7 @@ LIGHT_THEME = {
     'gutter_fg': '#666666',
     'status_bg': '#E0E0E0',
     'status_fg': '#000000',
+    'button_hover': '#CCCCCC',
 }
 
 DARK_THEME = {
@@ -23,8 +24,9 @@ DARK_THEME = {
     'insert_bg': '#FFFFFF',
     'gutter_bg': '#252526',
     'gutter_fg': '#858585',
-    'status_bg': '#007ACC',
-    'status_fg': '#FFFFFF',
+    'status_bg': '#a4b0be',
+    'status_fg': '#000000',
+    'button_hover': '#7f8fa6',
 }
 
 
@@ -58,4 +60,3 @@ def apply_theme(widget, theme):
         selectforeground=theme['select_fg'],
         insertbackground=theme['insert_bg'],
     )
-
